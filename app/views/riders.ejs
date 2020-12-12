@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IBA DB - Rider List</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+		<script src="https://kit.fontawesome.com/ade5c7beee.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="content">
+			<% for(var i=0; i < data.length; i++) { %>
+			 <p>
+				 <td><%= data[i].id %> | </td>
+				 <td><%= data[i].FirstName %>&nbsp;<%= data[i].LastName %></td>
+			 </p>
+			<% } %>
+			<p class="medium-text"><a href="/"><span class="fas fa-home"></span> Go Home</a></p>
+		</div>
+	</body>
+</html>

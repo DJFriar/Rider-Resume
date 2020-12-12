@@ -1,0 +1,30 @@
+.content {
+  padding: 12px;
+}
+
+body {
+  color: gray;
+  font-family: "Special Elite", cursive;
+}
+
+p {
+  color: gray;
+  font-size: 2em;
+  font-family: "Special Elite", cursive;
+  /* font-family: "Oxanium", cursive; */
+}
+
+.medium-text {
+  font-size: 1.25em;
+}
+
+a:link,
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}

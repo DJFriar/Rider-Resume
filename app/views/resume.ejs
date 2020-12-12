@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<title>IBA DB - My Riding Resume</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+		<script src="https://kit.fontawesome.com/ade5c7beee.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="content">
+			<% for(var i=0; i < data.length; i++) { %>
+			 <p>
+				 <%= data[i].id %> | <a href="<%= data[i].IBA_URL %>" target="_blank"><%= data[i].Name %></a> | <%= data[i].EndDateTime %> | <%= data[i].GPSMiles %>mi on <%= data[i].NickName %>
+			 </p>
+			<% } %>
+			<p class="medium-text"><a href="/"><span class="fas fa-home"></span> Go Home</a></p>
+		</div>
+	</body>
+</html>
