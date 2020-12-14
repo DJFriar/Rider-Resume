@@ -2,16 +2,21 @@
   padding: 12px;
 }
 
-body {
+body,
+h1 {
   color: gray;
   font-family: "Special Elite", cursive;
+  padding-top: 20px;
 }
 
 p {
   color: gray;
   font-size: 2em;
   font-family: "Special Elite", cursive;
-  /* font-family: "Oxanium", cursive; */
+}
+
+footer {
+  padding-top: 20px;
 }
 
 .medium-text {

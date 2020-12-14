@@ -1,8 +1,8 @@
-# IBA DB
+# Rider Resume
 
 ## Description
 
-IBA DB is a site to aid IBA Members in tracking what rides they have done and what other rides they may have qualified for. It also provides some interesting stats for the entered rides.
+Rider Resume is a site to aid IBA Members in tracking what rides they have done and what other rides they may have qualified for. It also provides some interesting stats for the entered rides.
 
 ## Usage
 
