@@ -16,7 +16,7 @@ module.exports = (app) => {
   // Delete a Bike with bikeId
   app.delete("/api/bikes/:bikeId", bikes.delete);
 
-  // Create a new Bike
+  // Delete all Bikes
   app.delete("/api/bikes", bikes.deleteAll);
 
   // Display Bikes on HTML page
